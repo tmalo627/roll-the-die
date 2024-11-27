@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(100,150,255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+img {
+    margin-left: 50px;
+    margin-right: 50px;
+    transform: rotate(45deg);
+    height: 36px;
+    width: calc(height);
+}
+
+p {
+    font-size: 24px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    background-color: tan;
+    margin-left: 20%;
+}
+
+button {
+    width: 400px;
+    height: 40 px;
+    border-radius: 10px;
+}
+
+.inputArea {
+    text-align: center;
+}
+
+.buttons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

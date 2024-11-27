@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Roll the Die!</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="/images/diceIcon.ico">        
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1><span><img src=/images/diceClipArt.png></span>Roll the Dice<span><img src=/images/diceClipArt.png></span></h1>
+        <div class="inputArea">
+            <label>Number of Sides</label>
+            <input id="numberOfSides" type="number" value="6">
+        </div>
+        <div class="outcome">
+            <p id="onTheDie">??</p>
+        </div>
+        <div class="buttons">
+            <button id="roll" onclick="rollDie();">Roll it!</button>
+        </div>
+    </body>
+</html>
